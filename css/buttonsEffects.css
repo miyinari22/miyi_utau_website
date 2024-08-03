@@ -1,0 +1,78 @@
+:root{
+    --window-bg-color: rgba(255, 255, 255, 0.527);
+    --white-background: rgba(255, 255, 255);
+    --black-color: #000000;
+    --orange-color:#ff8c00; 
+    --aquamarine-color: #33e48e;
+    --brown-color: #513d3a;
+    --wine-color: #d1003f;
+    --blue-color:#00b7ff;
+}
+
+.buttons-section {
+    padding: 40px 0;
+    background-color: var(--white-background);
+    width: 100%;
+    box-shadow: 0px 4px 8px var(--black-color);
+}
+
+.buttons-section .row {
+    position: relative;
+}
+
+.buttons-section .col-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons-section .col-6:not(:last-child) {
+    position: relative;
+    padding-right: 30px;
+}
+
+.buttons-section .col-6:not(:first-child) {
+    position: relative;
+    padding-left: 30px;
+}
+
+.buttons-section .col-6:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background-color: var(--brown-color); /* Color de la línea vertical */
+    transform: translateX(50%);
+}
+
+.buttons-section .btn {
+    margin: 10px 0;
+    border-radius: 15px; /* Ajusta el radio de los botones */
+    padding: 10px 20px;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons-section .btn-primary {
+    background-color: var(--wine-color);
+    border: none;
+}
+
+.buttons-section .btn-secondary {
+    background-color: var(--wine-color);
+    border: none;
+}
+
+.buttons-section .btn:hover {
+    background-color: var(--aquamarine-color);
+    transition: background-color 0.5s ease-in-out;
+}
+
+.buttons-section .btn i {
+    margin-left: 8px; /* Espacio entre el texto y el ícono */
+    font-size: 1.2em; /* Tamaño del ícono */
+}

@@ -1,0 +1,77 @@
+:root {
+    --window-bg-color: rgba(255, 255, 255, 0.527);
+    --white-background: rgba(255, 255, 255);
+    --black-color: #000000;
+    --blue-color: #00b7ff;
+    --wine-color: #d1003f;
+    --rose-color: #ca4f6e;
+    --melon-color: #ffb672;
+    --badge-color: #000000; /* Nuevo color para el badge */
+    --badge-text-color: #ffffff; /* Color del texto del badge */
+}
+
+.line-up {
+    width: 100%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 80px;
+    background-color: var(--window-bg-color);
+}
+
+.line-up img {
+    padding: 20px;
+}
+
+.line-up .container {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.line-up-div {
+    margin-bottom: 30px;
+}
+
+.line-up-title {
+    color: var(--wine-color);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.line-up-text {
+    padding: 20px;
+    color: var(--black-color);
+}
+
+.line-up .card {
+    position: relative;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    max-width: 250px;
+    margin: auto;
+    background-color: var(--melon-color);
+    border-radius: 15px; /* Ajusta este valor para cambiar el radio de las esquinas */
+}
+
+.line-up .card img {
+    width: 100%;
+    height: auto; /* Asegura que las imágenes se ajusten al ancho de la tarjeta */
+}
+
+.line-up .card:hover {
+    transform: scale(1.05);
+    background-color: var(--rose-color);
+    transition: background-color 0.8s;
+}
+
+.card-title {
+    text-align: center;
+    color: var(--black-color);
+}
+
+.badge{
+    font-size: 0.8rem; /* Tamaño del texto del badge */
+    padding: 0.5em 1em; /* Espaciado interno del badge */
+    border-radius: 0.3rem; /* Bordes redondeados */
+    position: absolute; /* Posicionamiento absoluto */
+    top: 10px;
+    right: 10px; 
+}

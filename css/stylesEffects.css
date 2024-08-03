@@ -1,0 +1,111 @@
+:root{
+    --window-bg-color: rgba(255, 255, 255, 0.527);
+    --white-background: rgba(255, 255, 255);
+    --black-color: #000000;
+    --orange-color:#ff8c00; 
+    --blue-color: #00b7ff;
+    --brown-color: #513d3a;
+    --wine-color: #d1003f;
+    --purple-color: rgb(90, 44, 163);
+}
+
+.banner-phrase {
+    background-color: var(--window-bg-color);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px var(--black-color);
+    text-align: center;
+}
+
+.banner-phrase h1{
+    font-size: 3.5rem;
+}
+
+.white-section {
+    background-color: var(--white-background); /* Fondo blanco semi-transparente */
+    width: 100%; /* Ancho completo de la ventana */
+    padding: 50px 10px; /* Espaciado interno */
+    box-shadow: 0 0px 8px var(--black-color); /* Sombra suave */
+    text-align: center; /* Centra el texto */
+}
+
+.window-section {
+    width: 100%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 80px;
+    background-color: var(--window-bg-color);
+}
+
+
+.resume-title {
+    font-size: 3rem; /* Ajusta el tamaño de la fuente */
+    color: var(--blue-color); /* Color del texto */
+    margin-bottom: 10px; /* Espaciado inferior */
+    text-align: center;
+}
+
+.resume-phrase{
+    font-size: 2rem; /* Ajusta el tamaño de la fuente */
+    color:var(--black-color); /* Color del texto */
+    text-align:center;
+    padding: 20px;
+}
+
+.description{
+    text-align: justify;
+    font-size: 1.5rem;
+    padding: 20px;
+    color: var(--black-color);
+}
+
+.description2{
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px;
+    color: var(--black-color);
+}
+
+.about-title{
+    color: var(--wine-color);
+    font-size: 50px;
+    text-align: center;
+    padding: 25px;
+}
+
+.download-title, .inquiries-title{
+    color:var(--blue-color);
+}
+
+.download-text, .inquiries-text{
+    font-size: 20px;
+    color: var(--black-color);
+}
+
+.tos-disclaimer{
+    color: var(--purple-color);
+}
+
+.disclaimer-text{
+    font-size: 18px;
+}
+
+.button-section {
+    background-color: var(--wine-color);
+    border: none;
+}
+
+.button-section:hover {
+    background-color: var(--aquamarine-color);
+    transition: background-color 0.5s ease-in-out;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Añade un espacio entre las imágenes */
+}
+
+.row-image {
+    max-width: calc(35% - 10px); /* Ajusta el tamaño de las imágenes */
+    height: auto;
+}

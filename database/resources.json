@@ -1,0 +1,24 @@
+{
+    "resources": [
+        {
+            "title": "tokipona CVVC Reclist",
+            "description": "CVVC reclist for tokipona conlang",
+            "link": "https://github.com/miyinari22/toki-pona-CVVC-reclist"
+        },
+        {
+            "title": "Cadencii & v.Connect-STAND Guide",
+            "description": "A small guide to learn how to use Cadencii and create voicebanks for v.Connect-STAND",
+            "link": "https://docs.google.com/document/d/1ngK5aOitFeqUmfFJD-Jbq1bIsw8Br5pC-9I0e54BcCg/edit?usp=sharing"
+        },
+        {
+            "title": "This website template",
+            "description": "All the code of how works this site!",
+            "link": "/pages/404.html"
+        },
+        {
+            "title": "Japanese X-Sampa Dictionary for DV",
+            "description": "A japanese X-Sampa Dictionary for DeepVocal",
+            "link": "/pages/404.html"
+        }
+    ]
+}

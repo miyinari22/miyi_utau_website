@@ -1,0 +1,39 @@
+:root{
+    --wine-color: #d1003f;
+    --aquamarine-color: #33e48e;
+    --orange-color:#ff8c00; 
+    --brown-color: #513d3ad5;
+}
+
+.resource-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+}
+
+.resource-table th, .resource-table td {
+    border: 1px solid #808080;
+    padding: 1rem;
+    text-align: center;
+}
+
+.resource-table th {
+    font-weight: bold;
+    text-align: center;
+    color:var(--orange-color);
+    background-color: var(--brown-color);
+}
+
+.resource-link {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    background-color: var(--wine-color);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.resource-link:hover {
+    background-color: var(--aquamarine-color);
+}

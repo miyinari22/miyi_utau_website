@@ -1,0 +1,18 @@
+.custom-cursor {
+    position: fixed;
+    width: 30px; /* Tamaño inicial del cursor */
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.534); /* Color del cursor */
+    border-radius: 50%;
+    pointer-events: none; /* Evita que el cursor interactúe con otros elementos */
+    transition: left 0.5s ease-out, top 0.5s ease-out, width 0.6s ease-out, height 0.6s ease-out, transform 0.3s ease-out;
+    transform: translate(-50%, -50%); /* Centra el círculo en el cursor */
+    z-index: 9999; /* Asegura que esté sobre otros elementos */
+}
+
+/* Estilo para el cursor agrandado */
+.cursor-large {
+    width: 50px; /* Tamaño aumentado */
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.534); /* Color más oscuro cuando se agranda */
+}

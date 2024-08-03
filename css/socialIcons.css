@@ -1,0 +1,45 @@
+:root{
+    --aquamarine-color: #33e48e;
+    --wine-color: #c0003a;
+}
+.social-icons {
+    padding: 40px;
+}
+
+.social-icons .container {
+    max-width: 600px;
+}
+
+.social-icons-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.social-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: var(--wine-color); /* Color del texto e íconos */
+    font-size: 1.5rem; /* Tamaño de los íconos */
+}
+
+.social-icon i {
+    font-size: 2rem; /* Tamaño de los íconos */
+    margin-bottom: 8px; /* Espaciado entre el ícono y el texto */
+}
+
+#bilibili-icon{
+    margin-top: 7px;
+}
+
+.social-icon span {
+    font-size: 1rem; /* Tamaño del texto debajo del ícono */
+    margin-top: 4px;
+}
+
+.social-icon:hover {
+    color: var(--aquamarine-color); /* Color del ícono al pasar el cursor */
+    transition: color 0.5s ease-in-out;
+}

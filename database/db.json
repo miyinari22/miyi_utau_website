@@ -1,0 +1,14 @@
+{
+    "products": [
+        { "name": "Voicebank 1", 
+        "image": "../img/placeholder-sil.png", "link": "../pages/404.html", "new": true },
+        { "name": "Voicebank 2", 
+        "image": "../img/placeholder-sil.png", "link": "../pages/404.html", "new": false },
+        { "name": "Voicebank 3", 
+        "image": "../img/placeholder-sil.png", "link": "../pages/404.html", "new": true },
+        { "name": "Voicebank 4", 
+        "image": "../img/placeholder-sil.png", "link": "../pages/404.html", "new": false },
+        { "name": "Voicebank 5", 
+        "image": "../img/placeholder-sil.png", "link": "../pages/404.html", "new": true }
+    ]
+}
